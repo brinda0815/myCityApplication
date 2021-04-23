@@ -1,0 +1,23 @@
+ //@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+ .box-container{
+     .box-header{
+         border-top: 1px solid #DCDCDC;
+         padding:20px;
+         .title{
+             font-size:18px;
+             padding-top: 20px;
+             padding-bottom: 20px;
+         }
+     }
+    .box-content{
+        width:50%;
+        max-height: 350px;
+        overflow-y:auto;
+        border:1px solid #DCDCDC;
+    }
+    .box-footer{
+        padding-top: 20px;  
+    }
+
+ }
+ 

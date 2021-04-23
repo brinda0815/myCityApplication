@@ -1,0 +1,17 @@
+// @import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.example-container{
+    .title{
+        font-size: 25px;
+        padding:20px 20px;
+        font-weight: bold;
+        border:1px solid #ddd;
+        }
+    .example-form-field {
+        width: 500px;
+        padding:20px;
+      }
+    .example-header{
+          padding-left:10px;
+      }
+}

@@ -1,0 +1,23 @@
+<div>
+  <h1>Welcome to Weather Application</h1>
+
+  <div class="box-container">
+  
+    <div class="box-header">
+      <span class="title">List Of Cities :</span>
+    </div>
+    
+  
+    <div class="box-content">
+       <mat-selection-list #shoes [(ngModel)]="selectedOptions" (ngModelChange)="onNgModelChange($event)">
+          <mat-list-option *ngFor="let city of cities" [value]="city.name">
+            {{city.name}}
+          </mat-list-option>
+        </mat-selection-list>
+    </div>
+    <div class="box-footer">
+      <button color="primary" (click)="Submit(selectedOptions)" [disabled]="isDisabled" mat-raised-button>Submit</button>
+    </div>
+  </div>
+</div>
+

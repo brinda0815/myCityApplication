@@ -1,0 +1,10 @@
+
+    <mat-form-field class="searchbar example-form-field">
+        <input matInput type="text" placeholder="Search here" [(ngModel)]="searchText" />
+            <button mat-button *ngIf="searchText" matSuffix mat-icon-button aria-label="Clear" (click)="clear()">
+                    <mat-icon>close</mat-icon>
+            </button>
+      </mat-form-field>
+    
+      <button mat-raised-button color="primary" (click)="applyFilter()">Search</button>
+
