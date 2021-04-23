@@ -30,20 +30,19 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 2) For validation,we can have error dialog box on click of submit button.
 3) we can have sepreate checkbox component  & list of cities we can display in *ngFor Loop rather then using Angular Material Selection List.
 4) We can show information bar on top of page which will indicates that alteast one city should be selected.
-5)On click of submit , it's redirecting to SCREEN-2 , while it will check resolve , if city which we have selected is have weather details or not .we can handle Http request  error some better way.
+5)On click of submit button, it's redirecting to SCREEN-2 , while it will fetech data from API.-Error handling can be done in better way.
 
 
 
 ## Screen 2 ##
 
 1) we can make table component seprartely & include in grid Wrapper.
-2) we can hadle http error request in resolver ,if API is showing 404.
-3) Instead of using mat-table with filter functionality, we can make our custom table & custom pipe for filtering grid data.
-4) we can filter data based on keyup event on input field.
-5)Instead of creating grid component, we can make as module and load in lazy laoding way.
-6)We can show loader till data is not loaded in grid component.
-7)i have taken http data for grid, but it's response data is not enough to show search funcationlity,hence i have added data through mockdata as well.
+2) Instead of using mat-table with filter functionality, we can make our custom table & custom pipe for filtering grid data.
+3) we can filter data based on keyup event on input field.
+4)Instead of creating grid component, we can make as module and load in lazy laoding way in app.router.ts.
+5)We can show loader till data is not loaded in grid component.
+6)i have taken http data for grid, but it's response data is not enough to show search functionality,hence i have push data through mockdata as well.
 
 
-P.S: I have not much focused on UI part , but we can defienlety enhance screen UI which can attracts user.
+P.S: I have not much focused on UI part , but we can definitely enhance screen UI which can attract user.
 
