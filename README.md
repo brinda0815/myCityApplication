@@ -44,5 +44,6 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 6)i have taken http data for grid, but it's response data is not enough to show search functionality,hence i have push data through mockdata as well.
 
 
-P.S: I have not much focused on UI part , but we can definitely enhance screen UI which can attract user.
+P.S: I have not much focused on UI part , but we can definitely enhance screen UI which can give better user experience.
+
 
