@@ -21,7 +21,6 @@ export class gridComponent implements OnInit {
   }
 
   ngOnInit() {
-    debugger;
     config.cityByWeatherDetails.push(this.route.snapshot.data.gridResolver);
     this.dataSource = new MatTableDataSource(config.cityByWeatherDetails);
     }
